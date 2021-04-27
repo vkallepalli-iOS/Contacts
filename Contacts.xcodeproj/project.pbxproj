@@ -15,6 +15,14 @@
 		E086EE8926311FE000C41163 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E086EE8726311FE000C41163 /* LaunchScreen.storyboard */; };
 		E086EE9426311FE000C41163 /* ContactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E086EE9326311FE000C41163 /* ContactsTests.swift */; };
 		E086EE9F26311FE000C41163 /* ContactsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E086EE9E26311FE000C41163 /* ContactsUITests.swift */; };
+		E086EEB02631245800C41163 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = E086EEAF2631245800C41163 /* Contact.swift */; };
+		E086EEB526312C5C00C41163 /* ContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E086EEB426312C5C00C41163 /* ContactsTableViewController.swift */; };
+		E086EEBA26312FA400C41163 /* ContactsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E086EEB926312FA400C41163 /* ContactsTableViewCell.swift */; };
+		E086EEBF2631322D00C41163 /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E086EEBE2631322D00C41163 /* ImageService.swift */; };
+		E086EEF22633400700C41163 /* ContactDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E086EEF02633400700C41163 /* ContactDetailViewController.swift */; };
+		E086EEF32633400700C41163 /* ContactDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E086EEF12633400700C41163 /* ContactDetailViewController.xib */; };
+		E086EF1F263746C200C41163 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E086EF1E263746C200C41163 /* CustomView.swift */; };
+		E086EF24263746E400C41163 /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E086EF23263746E400C41163 /* CustomView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +57,14 @@
 		E086EE9A26311FE000C41163 /* ContactsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E086EE9E26311FE000C41163 /* ContactsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsUITests.swift; sourceTree = "<group>"; };
 		E086EEA026311FE000C41163 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E086EEAF2631245800C41163 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		E086EEB426312C5C00C41163 /* ContactsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
+		E086EEB926312FA400C41163 /* ContactsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewCell.swift; sourceTree = "<group>"; };
+		E086EEBE2631322D00C41163 /* ImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
+		E086EEF02633400700C41163 /* ContactDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailViewController.swift; sourceTree = "<group>"; };
+		E086EEF12633400700C41163 /* ContactDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactDetailViewController.xib; sourceTree = "<group>"; };
+		E086EF1E263746C200C41163 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		E086EF23263746E400C41163 /* CustomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +122,14 @@
 				E086EE8526311FE000C41163 /* Assets.xcassets */,
 				E086EE8726311FE000C41163 /* LaunchScreen.storyboard */,
 				E086EE8A26311FE000C41163 /* Info.plist */,
+				E086EF4B26386A5000C41163 /* Modal */,
+				E086EEB426312C5C00C41163 /* ContactsTableViewController.swift */,
+				E086EEB926312FA400C41163 /* ContactsTableViewCell.swift */,
+				E086EEBE2631322D00C41163 /* ImageService.swift */,
+				E086EEF02633400700C41163 /* ContactDetailViewController.swift */,
+				E086EEF12633400700C41163 /* ContactDetailViewController.xib */,
+				E086EF1E263746C200C41163 /* CustomView.swift */,
+				E086EF23263746E400C41163 /* CustomView.xib */,
 			);
 			path = Contacts;
 			sourceTree = "<group>";
@@ -126,6 +150,14 @@
 				E086EEA026311FE000C41163 /* Info.plist */,
 			);
 			path = ContactsUITests;
+			sourceTree = "<group>";
+		};
+		E086EF4B26386A5000C41163 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				E086EEAF2631245800C41163 /* Contact.swift */,
+			);
+			path = Modal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,7 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E086EE8926311FE000C41163 /* LaunchScreen.storyboard in Resources */,
+				E086EF24263746E400C41163 /* CustomView.xib in Resources */,
 				E086EE8626311FE000C41163 /* Assets.xcassets in Resources */,
+				E086EEF32633400700C41163 /* ContactDetailViewController.xib in Resources */,
 				E086EE8426311FDE00C41163 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,9 +292,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E086EEB02631245800C41163 /* Contact.swift in Sources */,
 				E086EE8126311FDE00C41163 /* ViewController.swift in Sources */,
+				E086EEBA26312FA400C41163 /* ContactsTableViewCell.swift in Sources */,
+				E086EF1F263746C200C41163 /* CustomView.swift in Sources */,
+				E086EEB526312C5C00C41163 /* ContactsTableViewController.swift in Sources */,
 				E086EE7D26311FDE00C41163 /* AppDelegate.swift in Sources */,
 				E086EE7F26311FDE00C41163 /* SceneDelegate.swift in Sources */,
+				E086EEF22633400700C41163 /* ContactDetailViewController.swift in Sources */,
+				E086EEBF2631322D00C41163 /* ImageService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
